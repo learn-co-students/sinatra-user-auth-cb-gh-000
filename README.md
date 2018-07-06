@@ -1,3 +1,4 @@
+
 # User Authentication in Sinatra
 
 ## Overview
