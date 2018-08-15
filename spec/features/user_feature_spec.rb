@@ -29,6 +29,7 @@ describe "User sign up, log in, sign out" do
       click_link('Log In')
     end
 
+
     it 'successfully logs in with an email and password' do
       expect(current_path).to eq('/sessions/login')
       fill_in("email", :with => valid_user.email)
